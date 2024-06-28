@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEA Salon</title>
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--My Style-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar Start-->
+
+    <nav class="navbar">
+      <img src="img/logoSalon.png" width="130" alt="logoSalon" height="90" />
+      <div class="navbar-nav">
+        <a href="#" class="a">Home</a>
+        <a href="#menu" class="a">Services</a>
+        <a href="#contact" class="a">Contact</a>
+        <a href="#Review" class="a">Review</a>
+      </div>
+
+      <div class="navbar-extra">
+        <button class="logbtn mar1" onmouseover="changecolor()" onmouseout="returncolor()"><a href="login/login.php" id = "a"><b>Customer login</b></a></button>
+        <button class="logbtn mar2" onmouseover="changecolor2()" onmouseout="returncolor2()"><a href="admin/admin_login.html" id = "b"><b>Admin login</b></a></button>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!--Navbar End-->
+
+    <!--Hero Section start-->
+    <section class="Hero" id="home">
+      <main class="content">
+        <h1>Welcome To <span>SEA</span></h1>
+        <p>“Beauty and Elegance Redefined”</p>
+        <a href="login/login.php" class="login">Book Now</a>
+      </main>
+    </section>
+    <!--Hero Section End-->
+
+    <!--Services Section Start-->
+    <section id="menu" class="Services">
+      <h2>Services</h2>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="img/haircut.jpg"
+            alt="haircut"
+            class="menu-card-img"
+            height="300"
+            width="300"
+          />
+          <h3 class="menu-card-title">- Haircuts & Styling -</h3>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/medipedi.jpg"
+            alt="haircut"
+            class="menu-card-img"
+            height="300"
+            width="300"
+          />
+          <h3 class="menu-card-title">- Manicure and Pedicure -</h3>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/facial.jpg"
+            alt="haircut"
+            class="menu-card-img"
+            height="300"
+            width="300"
+          />
+          <h3 class="menu-card-title">- Facial Treatments -</h3>
+        </div>
+      </div>
+    </section>
+    <!--Services Section End-->
+
+    <!--Contact Section Start-->
+    <div id="contact" class="contacts">
+      <h2>Contact Details</h2>
+      <div class="list">
+        <ul>
+          <li>Thomas</li>
+          <br /><i data-feather="phone" height="15"></i>
+          : 08123456789
+          <br />
+          <br />
+          <li>Kare</li>
+          <br /><i data-feather="phone" height="15"></i>
+          : 08164829372
+          <br />
+          <br />
+        </ul>
+      </div>
+    </div>
+    <!--Contact Section ENd-->
+
+    <!--Review Section Start-->
+    <section id="Review" class="review">
+      <h2>Customer Reviews</h2>
+      <div class="container">
+        <h3>Give Us Your Feedback</h3>
+        <br>
+        <form action="customer_review.php" method="post">
+          <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5" value="5"/>
+            <label for="rate-5" class="fas fa-star" ></label>
+            <input type="radio" name="rate" id="rate-4" value="4"/>
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3" value="3"/>
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2" value="2"/>
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1" value="1" required/>
+            <label for="rate-1" class="fas fa-star" ></label>
+          </div>
+          <div class="name">
+            <label for="name">Name :</label>
+            <input type="text" name="name" required></input>
+          </div>
+          <br>
+          <div class="description">
+            <textarea class="des" placeholder="Describe your experience." name="dec" required></textarea>
+          </div>
+          <div class="btn" onclick="submitButton()">
+            <button type="submit" onsubmit="submit()" name="submit_review"><b>Submit</b></button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Review Section End-->
+    <!--Feather Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!---->
+
+    <script src="index.js">
+
+    </script>
+  </body>
+</html>

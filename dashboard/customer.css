@@ -1,0 +1,92 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #b6895b;
+  border-bottom: 1px solid #b6895b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  color: white;
+}
+
+button.Logout {
+  background-color: #f4ecd0;
+  padding: 0.6rem;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  /* box-shadow: 3px 3px 3px 3px rgba(1, 1, 3, 0.1); */
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-extra .notif {
+  margin-right: 6rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar .navbar-extra {
+  display: flex;
+}
+
+.profile {
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+.container1 {
+  background-color: #f4ecd0;
+  height: 800px;
+  width: 981px;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  display: flex;
+}
+
+.title {
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-top: 0%;
+  margin-left: 2rem;
+  height: 50px;
+  padding: 15px;
+  background-color: #b6895b;
+  border: ivory;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+/* .header {
+  height: 145px;
+  width: 981px;
+  border-bottom: 1px solid black;
+} */
+
+table {
+  margin-top: 11rem;
+  margin-left: 1px;
+  /* border: 1px solid black; */
+  height: min-content;
+  position: absolute;
+}
+
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 60px;
+}

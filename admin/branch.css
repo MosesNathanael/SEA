@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  background-image: url("https://wallpapers.com/images/hd/mountain-aesthetic-3pbvwsg3h7ksq2li.jpg");
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+body img {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #222;
+  text-align: center;
+  min-height: 100%;
+  width: 25rem;
+  margin: auto;
+  border-radius: 15px;
+  padding-bottom: 1.5rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.labelemail {
+  margin-right: 3.8rem;
+}
+.labelpass {
+  margin-right: 5rem;
+}
+
+.labelname {
+  margin-right: 5rem;
+}
+
+.labelphonenumber {
+  margin-right: 5rem;
+}
+
+input {
+  width: 17rem;
+  margin-left: 2rem;
+  height: 2rem;
+  font-size: 15px;
+  border: 2px 2px 2px 2px solid #222;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+img {
+  border-radius: 100%;
+}
+
+.form-field {
+  margin-right: 10rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.aLogin {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  width: 7rem;
+  background-color: #00ffb7;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.back {
+  color: #fff;
+  margin-right: 18rem;
+  margin-top: 2rem;
+}
+
+.php {
+  text-align: center;
+  color: #cf4747;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  color: #32ec70;
+  padding: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+select {
+  width: 17rem;
+  margin-left: 2rem;
+  height: 2rem;
+  font-size: 15px;
+  border: 2px 2px 2px 2px solid #222;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+
+/* form {
+    display: grid;
+    grid-row-gap: 10px;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .form-field {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  } */
+
+form {
+  display: flexbox;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+    justify-items: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 63%;
+    justify-items: 63%;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+    justify-items: 55%;
+  }
+}
