@@ -34,10 +34,27 @@ Akses pada browser dengan url
 http://localhost/SEA-main
 ```
 
-## Database 
+## Create Database 
 1. Buka database di hhtp://localhost/phpmyadmin
 2. Buat 1 stucture/database bernama "sea_salon reservation"
-3. Isi database tersebut dengan 6 table yang namannya seperti ini -> [branch,customers,registration,reservationdb,reviews,services]
-4. Isi Table "branch" dengan column -> [Name, Location, OpeingTime, ClosingTime]
-5. 
+3. Isi database tersebut dengan 5 table -> [branch, customers, reservationdb, reviews, services]
+4. Isi Table "branch" dengan column -> [Name, Location, OpeningTime, ClosingTime]
+5. Isi Table "customers" dengan column -> [FullName, Email, PhoneNumber, Password]
+6. Isi Table "reservationdb" dengan column -> [Email, PhoneNumber, Service, Date, Time, Location]
+7. Isi Table "reviews" dengan column -> [Name, Rating, Feedback]
+8. Isi Table "services" dengan column -> [Location, Services, Duration]
+9. Edit Table "Email" pada table "customers" menjadi unique
+10. Database siap digunakan
+
+## Database's Function 
+- branch = Untuk melihat cabang2 SEA Salon beserta informasinya
+- customers = List customers/pengguna beserta informasinya
+- reservationdb = List reservasi beserta informasinya
+- reviews = Review pengguna
+- services = List services yang ada pada cabang2 SEA Salon
+
+## Credit 
+```
+Moses Nathanael 
+```
 
