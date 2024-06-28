@@ -54,13 +54,11 @@
             include "../database.php";
 
             if(isset($_POST['submit_registration'])){
-                $name = $_POST['username'];
                 $location = $_POST['email'];
                 $services = $_POST['phonenumber'];
                 $duration = $_POST['password'];
 
-                $sql = "INSERT INTO services (BranchName, Location, Services, Duration) VALUES 
-                ('$name','$location', '$services', '$duration')";
+                $sql = "INSERT INTO `services`(`Location`, `Services`, `Duration`) VALUES ('$location','$services','$duration')";
                 
                 try {
                   if($db->query( $sql )){
