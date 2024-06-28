@@ -28,14 +28,14 @@ C:\xampp\htdocs\
 
 Start apache pada XAMPP Control Panel 
 
-Akses pada browser dengan url 
+Akses aplikasi/website pada browser dengan url 
 
 ```
 http://localhost/SEA-main
 ```
 
 ## Create Database 
-1. Buka database di hhtp://localhost/phpmyadmin
+1. Buka database di http://localhost/phpmyadmin
 2. Buat 1 stucture/database bernama "sea_salon reservation"
 3. Isi database tersebut dengan 5 table -> [branch, customers, reservationdb, reviews, services]
 4. Isi Table "branch" dengan column -> [Name, Location, OpeningTime, ClosingTime]
