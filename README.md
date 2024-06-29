@@ -36,6 +36,7 @@ http://localhost/SEA-main
 
 ## Create Database 
 **PENTING! JANGAN SALAH/TYPO DALAM PENAMAAN TABLE DAN COLUMN.**
+
 **PENTING! SEMUA COLUMN HARUS DIBERI LENGTH "50" dan JENIS "VARCHAR".**
 1. Buka database di http://localhost/phpmyadmin
 2. Buat 1 stucture/database bernama "sea_salon reservation"
