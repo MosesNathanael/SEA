@@ -35,6 +35,8 @@ http://localhost/SEA-main
 ```
 
 ## Create Database 
+**PENTING! JANGAN SALAH/TYPO DALAM PENAMAAN TABLE DAN COLUMN.**
+**PENTING! SEMUA COLUMN HARUS DIBERI LENGTH "50" dan JENIS "VARCHAR".**
 1. Buka database di http://localhost/phpmyadmin
 2. Buat 1 stucture/database bernama "sea_salon reservation"
 3. Isi database tersebut dengan 5 table -> [branch, customers, reservationdb, reviews, services]
@@ -43,8 +45,8 @@ http://localhost/SEA-main
 6. Isi Table "reservationdb" dengan column -> [Email, PhoneNumber, Service, Date, Time, Location]
 7. Isi Table "reviews" dengan column -> [Name, Rating, Feedback]
 8. Isi Table "services" dengan column -> [Location, Services, Duration]
-9. Edit Table "Email" pada table "customers" menjadi unique
-10. Database siap digunakan
+10. Edit Column "Email" pada table "customers" menjadi unique
+11. Database siap digunakan
 
 ## Database's Function 
 - branch = Untuk melihat cabang2 SEA Salon beserta informasinya
@@ -58,3 +60,4 @@ http://localhost/SEA-main
 Moses Nathanael 
 ```
 
+Thankyou for using our application. We hope you enjoy it. 
