@@ -28,12 +28,6 @@ C:\xampp\htdocs\
 
 Start apache pada XAMPP Control Panel 
 
-Akses aplikasi/website pada browser dengan url 
-
-```
-http://localhost/SEA-main
-```
-
 ## Create Database 
 **PENTING! JANGAN SALAH/TYPO DALAM PENAMAAN TABLE DAN COLUMN.**
 
@@ -55,6 +49,13 @@ http://localhost/SEA-main
 - reservationdb = List reservasi beserta informasinya
 - reviews = Review pengguna
 - services = List services yang ada pada cabang2 SEA Salon
+
+Akses aplikasi/website pada browser dengan url 
+
+```
+http://localhost/SEA-main
+```
+
 
 ## Credit 
 ```
